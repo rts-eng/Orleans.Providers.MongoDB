@@ -22,5 +22,5 @@ jobs:
         
     - name: Publish
       run: |
-        dotnet nuget push **/*.nupkg --source 'https://nuget.pkg.github.com/rts-eng/index.json' --skip-duplicate -k ${{ secrets.nuget }} --no-symbols 1 
+        dotnet nuget push **/*.nupkg --source 'https://nuget.pkg.github.com/rts-eng/index.json' --skip-duplicate -k ${{ secrets.GITHUB_TOKEN }} --no-symbols 1 
       if: github.ref == 'refs/heads/master'
