@@ -1,6 +1,6 @@
 # Orleans.Providers.MongoDB
 
-![Nuget](https://img.shields.io/nuget/v/Orleans.Providers.MongoDB)
+![Nuget](https://img.shields.io/nuget/v/Orleans.Providers.MongoDB) [![.NET Core](https://github.com/rts-eng/Orleans.Providers.MongoDB/actions/workflows/default.yml/badge.svg)](https://github.com/OrleansContrib/Orleans.Providers.MongoDB/actions/workflows/default.yml)
 
 > Feedback would be appreciated.
 
